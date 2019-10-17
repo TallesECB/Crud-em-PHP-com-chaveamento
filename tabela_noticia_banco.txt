@@ -1,0 +1,8 @@
+CREATE TABLE noticias
+(
+    idnot serial NOT NULL,
+    title character varying,
+    info character varying,
+    texto character varying,
+    imagem character varying
+)
